@@ -3,16 +3,7 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-/**
- *
- * @author Loris
- */
-public class AeSimpleSHA1 {
+public class simpleSHA1 {
 
     private static String convertToHex(byte[] data) {
         StringBuffer buf = new StringBuffer();
